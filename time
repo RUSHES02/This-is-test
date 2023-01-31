@@ -1,0 +1,16 @@
+class Time{
+  Day day;
+  Week week;
+  Month month;
+  Year year;
+  Hour hour;
+  Minute minute;
+  Second second;
+  public static void main(String args[]){
+    boolean birthdayWished;
+    Time time = new Time();
+    if(birthdayWished == false){
+      time.day--;
+    }
+  }
+}
