@@ -1,5 +1,5 @@
 class Time{
-  Day day;
+  Day day = 0;
   Week week;
   Month month;
   Year year;
@@ -10,7 +10,7 @@ class Time{
     boolean birthdayWished;
     Time time = new Time();
     if(birthdayWished == false){
-      time.day--;
+      time.day++;
     }
   }
 }
